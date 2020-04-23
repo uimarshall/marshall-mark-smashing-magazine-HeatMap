@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  display: flex;
+  min-height: 6.5rem;
+  align-items: center;
+  background-color: #777;
+}
+
+.nav-container div {
+  flex: 1;
+  text-align: center;
+  color: white;
+}
+
+.nav-container h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-family: "Manrope", sans-serif;
+}
+
+.nav-container p {
+  font-family: "Spinnaker", sans-serif;
+  font-style: italic;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-container a:hover {
+  color: black;
+}
+
+.nav-links {
+  background-color: #444;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  margin: 1rem;
+}
+
+.nav-container button {
+  height: 3rem;
+  width: 8rem;
+  border: 2px solid white;
+  border-radius: 5%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: inherit;
+}
