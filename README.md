@@ -35,9 +35,9 @@ This project is the heatmap of smashing magazine
 - Twitter: [@uimarshall](https://twitter.com/uimarshall)
 - Linkedin: [uimarshall](https://www.linkedin.com/in/marshall-akpan-19745526/)
 
-​#### 👤 **Mark James Kiptubei**
 
-​
+#### 👤 **Mark James Kiptubei**
+
 
 - Github: [@kiptubei](https://github.com/kiptubei)
 - Linkedin: [mark](https://www.linkedin.com/in/mark-james-k-aa875829/)
