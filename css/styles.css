@@ -9,6 +9,7 @@
 html {
   font-family: "Manrope", sans-serif;
 }
+
 .null {
   display: none;
 }
@@ -78,7 +79,6 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  /* background-color: green; */
   margin-top: -6%;
 }
 
@@ -185,36 +185,42 @@ body {
   line-height: 1.5rem;
   padding: 0.01rem 1rem;
 }
+
 .wrapper {
-  background: #777777;
+  background: #777;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
 }
+
 .pic-div {
   text-align: center;
-  background: #333333;
+  background: #333;
   padding: 2rem;
   font-size: 2rem;
 }
+
 .article-info {
   padding: 0.5rem;
   height: 10%;
   margin: 1.6rem 0;
-  background: #777777;
+  background: #777;
   text-align: center;
 }
+
 .art-button {
   width: 13rem;
   height: 3.5rem;
   margin-top: 12px;
   border-radius: 10%;
-  background: #bbbbbb;
+  background: #bbb;
   border: none;
   font-size: 1.2rem;
 }
+
 .pic-div img {
   max-width: 60%;
 }
+
 .featured-article {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -222,33 +228,38 @@ body {
   margin: 50px 0;
   height: 592px;
 }
+
 .art-title {
   font-size: 2rem;
   padding: 0.5rem;
   width: 60%;
   height: 50px;
   margin-bottom: 1.6rem;
-  background: #777777;
+  background: #777;
   align-self: center;
 }
+
 .content {
   font-size: 1.5rem;
   line-height: 1.4;
 }
+
 .author {
   color: #777;
   margin-bottom: 10px;
 }
+
 .feat-article {
   padding: 3.5rem;
-  background: #dddddd;
+  background: #ddd;
 }
+
 .feat-article .date {
   font-size: 0.7rem;
   padding: 1.5rem;
   width: 150px;
   height: 50px;
-  background: #555555;
+  background: #555;
   text-align: left;
   margin-bottom: 1.6rem;
 }
@@ -311,9 +322,11 @@ body {
   width: 17rem;
   border-radius: 5%;
 }
+
 .comm-div-wrapper {
-  background: #dddddd;
+  background: rgb(169, 169, 169);
 }
+
 .community-links {
   height: 350px;
   display: flex;
@@ -321,11 +334,11 @@ body {
   align-items: center;
   margin-bottom: 2.5rem;
   justify-content: center;
-  align-items: center;
 }
+
 .author-img {
   flex: 0 0 200px;
-  background-color: rgb(120, 120, 120);
+  background-color: white;
   height: 200px;
   transform: rotate(-15deg);
   border-radius: 5px;
@@ -333,6 +346,7 @@ body {
   margin-left: 5%;
   margin-right: 5%;
 }
+
 .peoples-choice {
   margin-left: 20px;
 }
@@ -342,16 +356,19 @@ body {
   margin-bottom: 2.2rem;
   text-transform: uppercase;
 }
+
 .peoples-choice p {
   line-height: 1.6;
 }
+
 .sub-article .content-2 {
   font-size: 1.2rem;
   line-height: 1.4;
-  color: #333333;
+  color: #333;
   font-weight: normal;
   margin: 20px 0;
 }
+
 .read-more {
   text-align: center;
   text-transform: uppercase;
@@ -444,4 +461,60 @@ body {
   line-height: 2rem;
   padding-top: 3rem;
   margin-bottom: 2rem;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  background-color: #777;
+  color: white;
+  padding-top: 5%;
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 0.9rem;
+  font-weight: bolder;
+}
+
+.footer-links {
+  border: 2px solid black;
+  width: 90%;
+  margin: 0 auto;
+  align-self: center;
+  font-size: 1.5rem;
+  margin-top: 4rem;
+}
+
+.footer-links ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-links li {
+  margin-right: 2rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-attributions {
+  display: flex;
+  padding-top: 5rem;
+}
+
+.footer-links-2 {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  border: none;
+}
+
+.footer-links-2 a {
+  text-decoration: underline;
 }
