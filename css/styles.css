@@ -427,9 +427,11 @@ body {
 }
 
 .guide-sec h2 {
-	font-size: 2rem;
+	font-size: 1.6rem;
 	font-weight: bold;
 	margin-bottom: 1.5rem;
+	margin-right: 0.5rem;
+	line-height: 1.4;
 }
 
 .guide-sec h4 {
@@ -460,6 +462,9 @@ body {
 	line-height: 2rem;
 	padding-top: 3rem;
 	margin-bottom: 2rem;
+}
+.guide-img-sec p {
+	line-height: 1.6;
 }
 
 .footer-div {
