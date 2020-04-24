@@ -393,3 +393,49 @@ body {
 .feat-img {
   background-color: rgb(220, 220, 220);
 }
+
+.guides {
+  display: flex;
+  background-color: rgb(211, 211, 211);
+  padding: 3rem;
+}
+
+.guide-sec {
+  flex: 1;
+}
+
+.guide-sec h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.guide-sec h4 {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.guide-sec li {
+  line-height: 2;
+}
+
+.guide-img-sec {
+  width: 70%;
+  text-align: center;
+  background-color: rgb(105, 105, 105);
+  color: white;
+}
+
+.guide-img-sec img {
+  width: 70%;
+}
+
+.guide-img-sec h2 {
+  font-size: 3rem;
+  color: white;
+  line-height: 2rem;
+  padding-top: 3rem;
+  margin-bottom: 2rem;
+}
