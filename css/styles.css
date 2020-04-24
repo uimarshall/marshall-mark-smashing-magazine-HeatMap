@@ -6,7 +6,16 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: "Manrope", sans-serif;
+}
+
 header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+body {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -16,6 +25,7 @@ header {
   min-height: 6.5rem;
   align-items: center;
   background-color: #777;
+  padding-bottom: 2.5rem;
 }
 
 .nav-container div {
@@ -28,7 +38,6 @@ header {
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.5;
-  font-family: "Manrope", sans-serif;
 }
 
 .nav-container p {
@@ -60,4 +69,116 @@ header {
   font-size: 1.2rem;
   font-weight: bold;
   color: inherit;
+}
+
+/*Red Article container */
+
+.article-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background-color: green;
+  margin-top: -6%;
+}
+
+.sub-article {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 0 auto;
+  width: 100%;
+  padding: 3rem;
+  height: auto;
+}
+
+.sub-article p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.sub-article span {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.art-1 {
+  grid-area: 1/1/2/2;
+  background-color: rgb(192, 192, 192);
+}
+
+.art-2 {
+  grid-area: 1/2/2/3;
+  background-color: rgb(105, 105, 105);
+}
+
+.art-3 {
+  grid-area: 2/1/2/2;
+  background-color: rgb(105, 105, 105);
+}
+
+.art-4 {
+  grid-area: 2/2/2/3;
+  background-color: rgb(192, 192, 192);
+}
+
+.article-footer {
+  display: flex;
+  line-height: 4rem;
+  margin: 1.5rem 0.1rem;
+}
+
+.article-footer sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+.article-footer h5 {
+  margin-right: 2rem;
+  font-weight: bolder;
+}
+
+.arrow {
+  margin: 3rem 0.1rem;
+}
+
+.author-photo {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+
+.author-photo h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 2.8rem;
+}
+
+.author-photo span {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.author-photo img {
+  width: 50px;
+  height: 50px;
+  border: 3px solid white;
+  transform: rotate(-20deg);
+  margin-right: 5%;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  width: 40%;
+  font-size: 2rem;
+  top: 20px;
+}
+
+.banner mark {
+  background-color: white;
+  color: black;
+  line-height: 1.5rem;
+  padding: 0.01rem 1rem;
 }
