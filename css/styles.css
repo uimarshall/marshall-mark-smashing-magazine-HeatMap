@@ -1,0 +1,535 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Manrope", sans-serif;
+}
+
+.null {
+  display: none;
+}
+
+header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  display: flex;
+  min-height: 6.5rem;
+  align-items: center;
+  background-color: #777;
+  padding-bottom: 2.5rem;
+}
+
+.nav-container div {
+  flex: 1;
+  text-align: center;
+  color: white;
+}
+
+.nav-container h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.nav-container p {
+  font-family: "Spinnaker", sans-serif;
+  font-style: italic;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-container a:hover {
+  color: black;
+}
+
+.nav-links {
+  background-color: #444;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  margin: 1rem;
+}
+
+.nav-container button {
+  height: 3rem;
+  width: 8rem;
+  border: 2px solid white;
+  border-radius: 5%;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.article-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: -6%;
+}
+
+.sub-article {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 0 auto;
+  width: 100%;
+  padding: 3rem;
+  height: auto;
+}
+
+.sub-article p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.sub-article span {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.art-1 {
+  grid-area: 1/1/2/2;
+  background-color: rgb(192, 192, 192);
+}
+
+.art-2 {
+  grid-area: 1/2/2/3;
+  background-color: rgb(105, 105, 105);
+}
+
+.art-3 {
+  grid-area: 2/1/2/2;
+  background-color: rgb(105, 105, 105);
+}
+
+.art-4 {
+  grid-area: 2/2/2/3;
+  background-color: rgb(192, 192, 192);
+}
+
+.article-footer {
+  display: flex;
+  line-height: 4rem;
+  margin: 1.5rem 0.1rem;
+}
+
+.article-footer sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+.article-footer h5 {
+  margin-right: 2rem;
+  font-weight: bolder;
+}
+
+.arrow {
+  margin: 3rem 0.1rem;
+}
+
+.author-photo {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+
+.author-photo h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 2.8rem;
+}
+
+.author-photo span {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.author-photo img {
+  width: 50px;
+  height: 50px;
+  border: 3px solid white;
+  transform: rotate(-20deg);
+  margin-right: 5%;
+}
+
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 40%;
+  font-size: 2rem;
+  top: 20px;
+}
+
+.banner mark {
+  background-color: white;
+  color: black;
+  line-height: 1.5rem;
+  padding: 0.01rem 1rem;
+}
+
+.wrapper {
+  background: #777;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.pic-div {
+  text-align: center;
+  background: #333;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.article-info {
+  padding: 0.5rem;
+  height: 10%;
+  margin: 1.6rem 0;
+  background: #777;
+  text-align: center;
+}
+
+.art-button {
+  width: 13rem;
+  height: 3.5rem;
+  margin-top: 12px;
+  border-radius: 10%;
+  background: #bbb;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.pic-div img {
+  max-width: 60%;
+}
+
+.featured-article {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: 50px 0;
+  height: 592px;
+}
+
+.art-title {
+  font-size: 2rem;
+  padding: 0.5rem;
+  width: 60%;
+  height: 50px;
+  margin-bottom: 1.6rem;
+  background: #777;
+  align-self: center;
+}
+
+.content {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+.author {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.feat-article {
+  padding: 3.5rem;
+  background: #ddd;
+}
+
+.feat-article .date {
+  font-size: 0.7rem;
+  padding: 1.5rem;
+  width: 150px;
+  height: 50px;
+  background: #555;
+  text-align: left;
+  margin-bottom: 1.6rem;
+}
+
+.book-offer {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(119, 136, 153);
+  padding: 4rem 0.1rem;
+}
+
+.release-date {
+  color: white;
+  font-weight: bold;
+  font-family: serif;
+  font-size: 0.8rem;
+  font-stretch: extra-expanded;
+  line-height: 4rem;
+}
+
+.book-offer h2 {
+  font-size: 2.5rem;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.ethical-text {
+  color: white;
+  text-decoration: underline;
+}
+
+.ethical-text-2 {
+  color: black;
+  line-height: 1;
+}
+
+.text-and-button {
+  width: 65%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+.text-and-button p {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 1.5rem;
+  line-height: 1.5;
+}
+
+.text-and-button mark {
+  font-weight: 700;
+  background-color: rgb(119, 136, 153);
+}
+
+.art-button2 {
+  width: 17rem;
+  border-radius: 5%;
+}
+
+.comm-div-wrapper {
+  background: rgb(169, 169, 169);
+}
+
+.community-links {
+  height: 350px;
+  display: flex;
+  margin-right: 0.5rem;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  justify-content: center;
+}
+
+.author-img {
+  flex: 0 0 200px;
+  background-color: #333;
+  height: 200px;
+  transform: rotate(-15deg);
+  border-radius: 5px;
+  box-shadow: 0 20px 20px -20px black;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.peoples-choice {
+  margin-left: 20px;
+}
+
+.peoples-choice h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2.2rem;
+  text-transform: uppercase;
+}
+
+.peoples-choice p {
+  line-height: 1.6;
+}
+
+.sub-article .content-2 {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  color: #333;
+  font-weight: normal;
+  margin: 20px 0;
+}
+
+.read-more {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  padding-bottom: 1.5rem;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.feat-wrapper {
+  background-color: rgb(211, 211, 211);
+}
+
+.feat-book {
+  display: flex;
+  background-color: rgb(105, 105, 105);
+  height: auto;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  color: white;
+}
+
+.feat-book-text h4 {
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+.feat-book-text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 3rem;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+
+.feat-book-text p {
+  margin-bottom: 2rem;
+}
+
+.feat-book-text button {
+  margin-bottom: 2rem;
+}
+
+.feat-img {
+  background-color: rgb(165, 164, 164);
+}
+
+.guides {
+  display: flex;
+  background-color: rgb(211, 211, 211);
+  padding: 3rem;
+}
+
+.guide-sec {
+  flex: 1;
+}
+
+.guide-sec h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  margin-right: 0.5rem;
+  line-height: 1.4;
+}
+
+.guide-sec h4 {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.guide-sec li {
+  line-height: 2;
+}
+
+.guide-img-sec {
+  width: 70%;
+  text-align: center;
+  background-color: rgb(105, 105, 105);
+  color: white;
+}
+
+.guide-img-sec img {
+  width: 70%;
+}
+
+.guide-img-sec h2 {
+  font-size: 3rem;
+  color: white;
+  line-height: 2rem;
+  padding-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.guide-img-sec p {
+  line-height: 1.6;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  background-color: #777;
+  color: white;
+  padding-top: 5%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 0.9rem;
+  font-weight: bolder;
+}
+
+.footer-links {
+  margin: 0 auto;
+  align-self: center;
+  font-size: 1.3rem;
+  margin-top: 4rem;
+}
+
+.footer__topics__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 40px;
+}
+
+.footer-links li {
+  margin-right: 2rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-attributions {
+  display: flex;
+  padding-top: 5rem;
+}
+
+.footer-links-2 {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  border: none;
+}
+
+.footer-links-2 a {
+  text-decoration: underline;
+}
+
+.footer-contacts p {
+  line-height: 1.6;
+  text-align: center;
+  font-size: 14px;
+  width: 50%;
+  margin: 0 auto;
+}
